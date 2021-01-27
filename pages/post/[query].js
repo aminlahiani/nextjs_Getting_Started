@@ -1,9 +1,11 @@
 // getServerSideProps()
 
+import NavBarDefault from "../../components/layout/NavBar"
+
 const Posts = ({ results: query }) => {
     return (
         <div>
-
+ <NavBarDefault />
             <h1>getServerSideProps</h1>
 
             {query.map((q, index) => (

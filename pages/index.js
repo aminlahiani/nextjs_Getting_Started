@@ -1,9 +1,13 @@
 import Head from 'next/head'
+import NavBarDefault from '../components/layout/NavBar'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
+    <>
+     <NavBarDefault />
     <div className={styles.container}>
+     
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -61,5 +65,6 @@ export default function Home() {
         </a>
       </footer>
     </div>
+    </>
   )
 }

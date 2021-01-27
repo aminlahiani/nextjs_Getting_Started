@@ -21,7 +21,7 @@ const NavBarDefault = (props) => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
+      <Navbar color="dark" light expand="md">
         <NavbarBrand href="/">Nextjs</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -30,7 +30,7 @@ const NavBarDefault = (props) => {
               <NavLink href="/todos">Todos</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/Posts">Posts</NavLink>
+              <NavLink href="/posts">Posts</NavLink>
             </NavItem>
           
           </Nav>
