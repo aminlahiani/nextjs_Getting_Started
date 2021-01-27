@@ -10,7 +10,7 @@ function Profile() {
   return (
   <div>
       <Image
-        src="/static/images.png"
+        src="/images.png"
         alt="Picture of the author"
         width="200"
         height="200"
